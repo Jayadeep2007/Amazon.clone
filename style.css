@@ -1,0 +1,339 @@
+*{
+    margin: 0px;
+    border: border-box;
+    font-family: Arial;
+}
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center ;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    width: 120px;
+    height: 50px;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+    background-image: url("amazon-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding-top: 10px;
+}
+.border{
+    border: 1px solid transparent;
+    border-radius: 3px;
+    margin: 0px 1px 1px 1px;
+    padding: 1px 2px 5px 5px;
+}
+.border:hover{
+    border-color: white;
+}
+.one{
+    color: #cccccc;
+    font-size: 0.75rem;
+    font-size: 0.87rem;
+    margin: 2px 0px 1px 7px;
+    padding: 5px 0px 1px 5px;
+}
+.two{
+    color: white;
+    font-size: 0.87rem;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 125px;
+    height: 20px;
+
+}
+.nav-search{
+    height: 60px;
+    width: 344.89;
+    color: #0F1111;
+    align-items: center;
+    display: flex;
+
+}
+.all{
+    background-color: #E6E6E6;
+    height: 39px;
+    width: 52px;
+    padding-left: 5px; 
+    color:#0F1111;
+    border: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+
+}
+.search-space{
+    height: 22px;
+    width: 600.89px;
+    padding: 7px 10px 10px 0px;
+    border: 0px;
+
+}
+.search-icon{
+    height: 39px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(234, 165, 97);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.nav-country{
+    height: 38px;
+    width: 60.38px;
+    display:flex;
+    padding: 0px 6px 5px 7px;
+    background-color: transparent;
+    align-items: center;
+    margin-top: 8px ;
+    padding-top: 5px;
+}
+.logo-ind{
+    height: 16.2px;
+    width: 21.6px;  
+}
+.language{
+    background-color: transparent;
+    border: 0px;
+    color: #ffffff;
+    font-weight: 100px;
+}
+.nav-acc{
+    height: 35px;
+    width: 119.52px;
+    color: white;
+    align-content: center;
+    margin: 0px 1px;
+    padding: 10px 4px 8px 9px;
+   
+}
+.flex{
+    display: flex;
+    font-size: 0.85rem;
+}
+.hello{
+    font-size: 14px;
+}
+.nav-return{
+    height: 38px;
+    width: 60px;
+    color: white;
+    align-content: center;
+    margin: 0px 1px;
+    padding: 10px 4px 8px 9px;
+   
+}
+.three{
+    display: flex;
+    font-size: 0.85rem;
+}
+.order{
+    font-size: 0.75rem;
+}
+.cart{
+    height: 50px;
+    width: 70px;
+    align-content: center;
+    /* padding-top: 5px; */
+
+}
+.symbol{
+    padding-top: 10px;
+}
+.four{
+    display: flex;
+    margin: 0px 1px;
+    padding: 15px 0px 0px 2px;
+}
+
+.panel{
+    height: 39px;
+    width: 1132;
+    background-color: #232f3e;
+    display: flex;
+    color:white;
+    justify-content:flex-start;
+    align-items: center;
+    font-size: 14px;
+    
+}
+.five{
+    display: flex;
+    padding-top: 7px;
+}
+.six p{
+    display: inline;
+}
+.eight p{
+    display: inline;
+}
+.seven {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-start;
+    padding-right: 5px;
+}
+
+.hero{
+    background-image: url("hero.jpg");
+    height: 280px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ten{
+    padding-top: 5px;
+}
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #dae3e3;
+    height: 830px;
+}
+.box{
+    height:360px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box-img{
+    height: 280px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 1rem ;
+    margin-bottom: 1rem;
+}
+.boxcontent{
+    margin-left: 1rem ;
+    margin-right: 1rem;
+}
+.seemore{
+    color:#2162a1;
+}
+.seemore:hover{
+    color: #232f3e;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+
+.footer1{
+    height: 49px;
+    width: 100%;
+    /* margin-bottom: 40px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37475A;
+    color: white;
+    font-size: 13px;
+}
+.footer1:hover{
+    background-color: #4d5f71;
+}
+
+.footer2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #232f3e;
+    height: 380px;
+}
+
+.content1{
+    color: white;
+    font-size: 16px;
+    font-weight: 100px;
+}
+.content2{
+    color: white;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+.content2:hover{
+    text-decoration: underline;
+}
+.panel1{
+    margin-top: 60px;
+}
+.footer3{
+    background-color: #232f3e;
+    color: white;
+    border-top: 0.5px solid #43576a;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 12px; */
+}
+.content3{
+    height: 27px;
+    width: 90px;
+    background-image: url("amazon-logo.png");
+    background-size: cover;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+.control-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #a2a6ac; 
+  border-radius: 3px;        
+  padding: 6px 12px;        
+  color: #ccc;               
+  background-color: transparent;
+  cursor: pointer;
+  height: 34px;             
+  box-sizing: border-box;
+  margin-right: 12px;
+}
+.footer4{
+    background-color: #131a22;
+    color: #cccccc;
+    font-size: 0.7rem;
+    height: 70px;
+    padding-top: 30px;
+}
+.pages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.class1:hover{
+    text-decoration: underline;
+}
+.class2:hover{
+    text-decoration: underline;
+}
+.class3:hover{
+    text-decoration: underline;
+}
+
+.pages a{
+    color: #cccccc;
+    text-decoration: none;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;    
+}
